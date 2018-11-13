@@ -9,9 +9,11 @@ ModelImporter:
     2100002: 01 - Default
     2100004: 03 - Default
     2100006: 07 - Default
+    2100008: 'Material #83'
     2300000: //RootNode
     3300000: //RootNode
     4300000: Horror_Monster
+    4300002: Horror_Parasit
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -816,11 +816,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.037832834
+      value: -0.147
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8837862
+      value: 1.742
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -878,6 +878,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -1452,31 +1456,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.095
+      value: -0.077
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.88
+      value: 1.199
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.5941741
+      value: -2.788
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.31185156
+      value: 0.13796736
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5094091
+      value: -0.2563288
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7777166
+      value: -0.9306169
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.19597955
+      value: 0.22183941
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_RootOrder
@@ -1496,15 +1500,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 317.924
+      value: 335.426
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -67.295006
+      value: -24.043001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -482.993
+      value: -507.873
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -1514,6 +1518,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -1932,31 +1940,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.45926
+      value: -0.31308344
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3837991
+      value: 1.4188328
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.5167463
+      value: -2.728048
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.29098275
+      value: -0.10247848
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.47528154
+      value: -0.53894943
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.54774433
+      value: -0.746366
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.62402946
+      value: -0.3767883
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_RootOrder
@@ -1976,15 +1984,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 350.938
+      value: 313.341
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 67.439
+      value: 54.551003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -643.505
+      value: -618.645
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -1994,6 +2002,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -2215,31 +2227,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1137862
+      value: -1.4291855
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.831
+      value: 0.2069568
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.1330707
+      value: 2.4662776
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.037100818
+      value: -0.6388964
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.19702442
+      value: -0.1007856
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.19274068
+      value: -0.121702634
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96054983
+      value: 0.7528893
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_RootOrder
@@ -2259,15 +2271,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 360.268
+      value: 260.599
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -23.129002
+      value: -178.685
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -337.363
+      value: -199.48
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -2277,6 +2289,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -3052,13 +3068,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0, y: 0.9396926, z: -0, w: -0.34202027}
+  m_LocalRotation: {x: 0, y: -0.41786712, z: 0, w: 0.9085082}
   m_LocalPosition: {x: 0.6, y: 1.29, z: 0.673}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -500, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -49.4, z: 0}
 --- !u!1001 &538312780
 Prefab:
   m_ObjectHideFlags: 0
@@ -3877,7 +3893,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18
+      value: -0.337
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3885,7 +3901,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.704308
+      value: -2.925
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3939,6 +3955,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -4017,11 +4037,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.87475157
+      value: 0.456
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.748842
+      value: -3.745
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4075,6 +4095,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -6047,6 +6071,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -6374,31 +6402,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.1012697
+      value: 4.0078
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4706758
+      value: 1.4597
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.872
+      value: -1.636
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.69953585
+      value: 0.14793433
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.3647612
+      value: -0.7078076
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.26921484
+      value: -0.6884906
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5523788
+      value: 0.05571843
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_RootOrder
@@ -6406,27 +6434,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2549083
+      value: 0.9861823
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.240641
+      value: 0.97497016
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.240641
+      value: 0.97497016
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 324.801
+      value: 286.634
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -107.43201
+      value: -459.19702
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -261.296
+      value: -88.36
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -6436,6 +6464,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -6765,6 +6797,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -7259,31 +7295,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.465304
+      value: -5.841186
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.680819
+      value: 0.40458265
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.417
+      value: -5.4962115
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.08254043
+      value: 0.16741587
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.09962733
+      value: 0.74919885
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.9793284
+      value: 0.58108026
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.15549125
+      value: -0.2702201
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_RootOrder
@@ -7291,27 +7327,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.6414667
+      value: 0.9342736
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6228046
+      value: 0.9236517
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.6228046
+      value: 0.9236517
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 347.244
+      value: 253.98001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 352.3
+      value: 409.656
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -557.181
+      value: -553.236
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -7321,6 +7357,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -8290,31 +8330,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.834
+      value: -3.876
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.8449595
+      value: 2.763
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.2451096
+      value: -3.058
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.4036189
+      value: 0.4426424
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.1312803
+      value: -0.00033021712
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.29656696
+      value: 0.16323829
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8555147
+      value: 0.88171476
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_RootOrder
@@ -8322,27 +8362,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.41561145
+      value: 0.24152842
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.41561145
+      value: 0.24152842
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.41561145
+      value: 0.24152842
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 129.78299
+      value: 128.677
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -178.677
+      value: -166.685
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -141.142
+      value: -152.603
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -8769,7 +8809,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.596
+      value: 1.807
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8827,6 +8867,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -10069,31 +10113,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.106343
+      value: -5.427
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.064707
+      value: 1.2883277
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.169
+      value: -3.085843
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.18244252
+      value: 0.91096014
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6996392
+      value: 0.38361165
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.3802509
+      value: -0.102979414
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.57673997
+      value: 0.11130583
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_RootOrder
@@ -10113,15 +10157,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 198.762
+      value: 163.632
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -87.242004
+      value: 6.1159973
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -132.875
+      value: -44.791992
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -10131,6 +10175,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -10399,31 +10447,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.137
+      value: 0.04168507
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.436
+      value: 1.5120856
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.6543381
+      value: -2.7546735
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.32735568
+      value: 0.30409935
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.12465153
+      value: -0.30211937
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.30127838
+      value: -0.57330644
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.88686615
+      value: 0.6982601
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_RootOrder
@@ -10443,15 +10491,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 390.367
+      value: 364.489
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -29.004002
+      value: -50.621002
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -405.557
+      value: -440.899
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -10461,6 +10509,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -10952,31 +11004,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.8644567
+      value: -3.741
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.89505917
+      value: 0.53892165
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.050949
+      value: -3.156
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.09690341
+      value: 0.49305075
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.71651226
+      value: 0.47971788
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5707782
+      value: 0.29611927
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.38914296
+      value: -0.662635
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_RootOrder
@@ -10984,27 +11036,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.44291037
+      value: 0.21203005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.44291037
+      value: 0.21203005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.44291037
+      value: 0.21203005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 243.298
+      value: 249.641
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -84.181
+      value: 98.853
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -137.19
+      value: -166.602
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -11014,6 +11066,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -11088,6 +11144,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
@@ -11220,6 +11280,10 @@ Prefab:
       propertyPath: m_Name
       value: Horror_Monster (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b54393eae746a1647bb8a75809042bce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c587ad72062683841ad53a3c287948a9, type: 3}
   m_IsPrefabAsset: 0
