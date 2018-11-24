@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4961798804290564}
   - component: {fileID: 33349476895967708}
   - component: {fileID: 23966628644614694}
+  - component: {fileID: 95499935607762758}
   m_Layer: 0
   m_Name: Horror_Biomass_Big
   m_TagString: Untagged
@@ -83,3 +84,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1034916551821794}
   m_Mesh: {fileID: 4300000, guid: 9295c66a0a8eac445a9c0a319c38c58b, type: 3}
+--- !u!95 &95499935607762758
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034916551821794}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d293b7214d266f14b87069ffef8ab18d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
