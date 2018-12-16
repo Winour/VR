@@ -38,13 +38,17 @@ public class GvrReticlePointer : GvrBasePointer {
   public int reticleSegments = 20;
 
   /// Growth speed multiplier for the reticle/
-  public float reticleGrowthSpeed = 8.0f;
+  public float reticleGrowthSpeed = 2.0f;
 
   /// Sorting order to use for the reticle's renderer.
   /// Range values come from https://docs.unity3d.com/ScriptReference/Renderer-sortingOrder.html.
   /// Default value 32767 ensures gaze reticle is always rendered on top.
   [Range(-32767, 32767)]
   public int reticleSortingOrder = 32767;
+
+public VRInteractive target;
+
+    private bool maxRadius = false;
 
   public Material MaterialComp { private get; set; }
 
@@ -69,17 +73,18 @@ public class GvrReticlePointer : GvrBasePointer {
   public override float MaxPointerDistance { get { return maxReticleDistance; } }
 
   public override void OnPointerEnter(RaycastResult raycastResultResult, bool isInteractive) {
-    SetPointerTarget(raycastResultResult.worldPosition, isInteractive);
+    SetPointerTarget(raycastResultResult, isInteractive);
   }
 
   public override void OnPointerHover(RaycastResult raycastResultResult, bool isInteractive) {
-    SetPointerTarget(raycastResultResult.worldPosition, isInteractive);
+    SetPointerTarget(raycastResultResult, isInteractive);
   }
 
   public override void OnPointerExit(GameObject previousObject) {
     ReticleDistanceInMeters = maxReticleDistance;
     ReticleInnerAngle = RETICLE_MIN_INNER_ANGLE;
     ReticleOuterAngle = RETICLE_MIN_OUTER_ANGLE;
+        target = null;
   }
 
   public override void OnPointerClickDown() {}
@@ -112,15 +117,30 @@ public class GvrReticlePointer : GvrBasePointer {
     float inner_diameter = 2.0f * Mathf.Tan(inner_half_angle_radians);
     float outer_diameter = 2.0f * Mathf.Tan(outer_half_angle_radians);
 
-    ReticleInnerDiameter =
-      Mathf.Lerp(ReticleInnerDiameter, inner_diameter, Time.unscaledDeltaTime * reticleGrowthSpeed);
-    ReticleOuterDiameter =
-      Mathf.Lerp(ReticleOuterDiameter, outer_diameter, Time.unscaledDeltaTime * reticleGrowthSpeed);
+    maxRadius = false;
 
+    if (ReticleInnerDiameter < inner_diameter)
+    {
+        ReticleInnerDiameter =
+            Mathf.Lerp(ReticleInnerDiameter, inner_diameter, Time.unscaledDeltaTime * reticleGrowthSpeed);
+        ReticleOuterDiameter =
+            Mathf.Lerp(ReticleOuterDiameter, outer_diameter, Time.unscaledDeltaTime * reticleGrowthSpeed);
+            if(ReticleInnerDiameter > inner_diameter * 0.9f)
+            {
+                maxRadius = true;
+            }
+    }
+    else
+    {
+        ReticleInnerDiameter =
+            Mathf.Lerp(ReticleInnerDiameter, inner_diameter, Time.unscaledDeltaTime * reticleGrowthSpeed * 4);
+        ReticleOuterDiameter =
+            Mathf.Lerp(ReticleOuterDiameter, outer_diameter, Time.unscaledDeltaTime * reticleGrowthSpeed * 4);
+    }
     MaterialComp.SetFloat("_InnerDiameter", ReticleInnerDiameter * ReticleDistanceInMeters);
     MaterialComp.SetFloat("_OuterDiameter", ReticleOuterDiameter * ReticleDistanceInMeters);
     MaterialComp.SetFloat("_DistanceInMeters", ReticleDistanceInMeters);
-  }
+    }
 
   void Awake() {
     ReticleInnerAngle = RETICLE_MIN_INNER_ANGLE;
@@ -140,15 +160,20 @@ public class GvrReticlePointer : GvrBasePointer {
 
   void Update() {
     UpdateDiameters();
+if(target != null && maxRadius)
+        {
+            target.OnClickEnter();
+        }
   }
 
-  private bool SetPointerTarget(Vector3 target, bool interactive) {
+  private bool SetPointerTarget(RaycastResult _target, bool interactive) {
     if (base.PointerTransform == null) {
       Debug.LogWarning("Cannot operate on a null pointer transform");
       return false;
     }
 
-    Vector3 targetLocalPosition = base.PointerTransform.InverseTransformPoint(target);
+    target = _target.gameObject.GetComponent<VRInteractive>();
+    Vector3 targetLocalPosition = base.PointerTransform.InverseTransformPoint(_target.worldPosition);
 
     ReticleDistanceInMeters =
       Mathf.Clamp(targetLocalPosition.z, RETICLE_DISTANCE_MIN, maxReticleDistance);
