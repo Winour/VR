@@ -7,7 +7,11 @@ public class PlayerController : MonoBehaviour {
     public float speed;
 
     private Vector3 positionTarget, directionTarget, playerRealPos;
-
+    [SerializeField]
+    private AudioSource audioSource;
+    [SerializeField]
+    private AudioClip[] stepSounds;
+    private bool stepSoundFlag = true;
     private float verticalAngle;
 
 	void Start () 
@@ -18,6 +22,10 @@ public class PlayerController : MonoBehaviour {
 	void Update () 
 	{
         UpdatePlayerPosition();
+        //if (Input.GetButtonDown("Fire1"))
+        //{
+        //    PlayStepSound();
+        //}
 	}
 
     public void SetPlayerDestination(Vector3 _newPosition)
@@ -34,21 +42,43 @@ public class PlayerController : MonoBehaviour {
     {
         SetPlayerRealPosition();
 
-        if (Vector3.SqrMagnitude(positionTarget - playerRealPos) > 0.2f || (verticalAngle % Mathf.PI) > 0.6f)
+        if (PlayerSqrDistanceFromPoint(positionTarget) > 0.2f || (verticalAngle % Mathf.PI) > 0.6f)
         {
             verticalAngle += 6 * Time.deltaTime;
             this.transform.position = playerRealPos + new Vector3(0, (Mathf.Abs(Mathf.Sin(verticalAngle)) / 6) + 2, 0);
+            if(stepSoundFlag && (verticalAngle % Mathf.PI) < 0.5f)
+            {
+                stepSoundFlag = false;
+                PlayStepSound();
+            }
+            else if (!stepSoundFlag && (verticalAngle % Mathf.PI) >= 0.5f)
+            {
+                stepSoundFlag = true;
+            }
         }
-        if (Vector3.SqrMagnitude(positionTarget - playerRealPos) < 0.2f)
+        if (PlayerSqrDistanceFromPoint(positionTarget) < 0.2f)
         {
             return;
         }
         this.transform.Translate(directionTarget * speed * Time.deltaTime);       
     }
 
+    public float PlayerSqrDistanceFromPoint(Vector3 _position)
+    {
+        SetPlayerRealPosition();
+        return Vector3.SqrMagnitude(_position - playerRealPos);
+    }
+
     private void SetPlayerRealPosition()
     {
         playerRealPos = this.transform.position;
         playerRealPos.y = 0;
+    }
+
+    private void PlayStepSound()
+    {
+        audioSource.clip = stepSounds[Random.Range(0, stepSounds.Length)];
+        audioSource.pitch = Random.Range(0.95f, 1.05f); 
+        audioSource.Play();
     }
 }
