@@ -1781,7 +1781,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.101874664
+      value: -0.45
       objectReference: {fileID: 0}
     - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1789,7 +1789,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 57.472733
+      value: 54.67
       objectReference: {fileID: 0}
     - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
       propertyPath: m_LocalRotation.x
@@ -6892,7 +6892,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -9371,30 +9371,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 4.190699
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 4.1907
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 4.1906996
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -64.206
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 23.808
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 30.883001
-      objectReference: {fileID: 0}
     - target: {fileID: 1034916551821794, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
       propertyPath: m_Name
       value: Horror_Biomass_Big (3)
@@ -11264,7 +11240,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -13737,7 +13713,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.9056604, g: 0.34801355, b: 0.16660735, a: 1}
   m_Intensity: 2
-  m_Range: 18.670336
+  m_Range: 8
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -13755,7 +13731,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -14923,30 +14899,30 @@ Transform:
   - {fileID: 1644216611}
   - {fileID: 687666845}
   - {fileID: 1524624633}
+  - {fileID: 1042670187}
+  - {fileID: 1409344263}
   - {fileID: 478597217}
   - {fileID: 2010623014}
   - {fileID: 1737668736}
   - {fileID: 891183145}
+  - {fileID: 1141479188}
   - {fileID: 616161384}
+  - {fileID: 1555650190}
   - {fileID: 1207629302}
   - {fileID: 458830053}
-  - {fileID: 1042670187}
+  - {fileID: 845258468}
+  - {fileID: 1000932948}
   - {fileID: 382643649}
-  - {fileID: 1903538516}
+  - {fileID: 1789458916}
+  - {fileID: 937530403}
   - {fileID: 1547644119}
+  - {fileID: 1098027149}
+  - {fileID: 1740807892}
   - {fileID: 259323630}
   - {fileID: 435144292}
-  - {fileID: 1789458916}
-  - {fileID: 1409344263}
-  - {fileID: 1555650190}
-  - {fileID: 1740807892}
-  - {fileID: 845258468}
-  - {fileID: 1141479188}
-  - {fileID: 937530403}
-  - {fileID: 1098027149}
-  - {fileID: 1566928751}
-  - {fileID: 1000932948}
+  - {fileID: 1903538516}
   - {fileID: 602583546}
+  - {fileID: 1566928751}
   - {fileID: 187889458}
   - {fileID: 328115341}
   - {fileID: 1759379632}
@@ -17498,7 +17474,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -18219,30 +18195,6 @@ Prefab:
     - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 4.190702
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 4.1907
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 4.190702
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -79.833
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -22.138
-      objectReference: {fileID: 0}
-    - target: {fileID: 4961798804290564, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 6.5400004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa4234cf2e7205b4a93cf548d778c898, type: 2}
@@ -19468,7 +19420,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -22637,7 +22589,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -22746,7 +22698,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22760,7 +22712,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -25928,6 +25880,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300806, guid: 6319c068c9ef9f74990d1f8a8af318b0, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: be33bf5b82d3c624e92effa94dd31d19, type: 2}
+    - target: {fileID: 2300806, guid: 6319c068c9ef9f74990d1f8a8af318b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 45add9d6dbab4df4a95125e4d7c91415, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6319c068c9ef9f74990d1f8a8af318b0, type: 3}
   m_IsPrefabAsset: 0
@@ -30501,7 +30461,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
