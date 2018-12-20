@@ -22,10 +22,6 @@ public class PlayerController : MonoBehaviour {
 	void Update () 
 	{
         UpdatePlayerPosition();
-        //if (Input.GetButtonDown("Fire1"))
-        //{
-        //    PlayStepSound();
-        //}
 	}
 
     public void SetPlayerDestination(Vector3 _newPosition)

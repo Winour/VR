@@ -161,7 +161,7 @@ public VRInteractive target;
   void Update() {
     UpdateDiameters();
 if(target != null && maxRadius)
-        {
+        { 
             target.OnClickEnter();
         }
   }
@@ -171,7 +171,6 @@ if(target != null && maxRadius)
       Debug.LogWarning("Cannot operate on a null pointer transform");
       return false;
     }
-
     target = _target.gameObject.GetComponent<VRInteractive>();
     Vector3 targetLocalPosition = base.PointerTransform.InverseTransformPoint(_target.worldPosition);
 

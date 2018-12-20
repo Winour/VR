@@ -5,6 +5,8 @@ using UnityEngine;
 public class OnCameraTrigger : MonoBehaviour {
 
     private bool flag = true;
+    [SerializeField]
+    private GameObject[] objectToActivate;
 
     private void Start()
     {
@@ -13,10 +15,28 @@ public class OnCameraTrigger : MonoBehaviour {
 
     void Update () 
 	{
-        if (this.GetComponent<Renderer>().isVisible && flag)
+        if (this.GetComponent<Renderer>().isVisible)
         {
-            flag = false;
-            // Do Smth
+            Vector3 origin = Camera.main.transform.position;
+            Vector3 direction = this.transform.position - origin;
+            Ray ray = new Ray(origin, direction);
+            RaycastHit raycastHit = new RaycastHit();
+            if(Physics.Raycast(ray, out raycastHit, 100))
+            {
+                
+                if (raycastHit.transform.gameObject == this.gameObject)
+                {
+                    Vector3 a = Camera.main.WorldToViewportPoint(this.transform.position);
+                    if (a.x > 0.2f && a.x < 0.8f && a.y > 0.15f && a.y < 0.85f)
+                    {
+                        flag = false;
+                        foreach (GameObject o in objectToActivate)
+                        {
+                            o.SetActive(true);
+                        }
+                    }
+                }
+            }
         }
 	}
 }
