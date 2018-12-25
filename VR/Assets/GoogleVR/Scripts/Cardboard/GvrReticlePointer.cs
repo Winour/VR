@@ -147,6 +147,7 @@ public VRInteractive target;
     ReticleOuterAngle = RETICLE_MIN_OUTER_ANGLE;
   }
 
+
   protected override void Start() {
     base.Start();
 

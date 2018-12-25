@@ -16,7 +16,10 @@ public class PlayerController : MonoBehaviour {
 
 	void Start () 
 	{
-        SetPlayerDestination(this.transform.position);
+        if (positionTarget == Vector3.zero)
+        {
+            SetPlayerDestination(this.transform.position);
+        }
     }
 	
 	void Update () 
@@ -33,7 +36,7 @@ public class PlayerController : MonoBehaviour {
         directionTarget.y = 0.0f;
         directionTarget.Normalize();
     }
-
+    
     private void UpdatePlayerPosition()
     {
         SetPlayerRealPosition();
