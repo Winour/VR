@@ -23,7 +23,6 @@ public class OnCameraTrigger : MonoBehaviour {
             RaycastHit raycastHit = new RaycastHit();
             if(Physics.Raycast(ray, out raycastHit, 100))
             {
-                
                 if (raycastHit.transform.gameObject == this.gameObject)
                 {
                     Vector3 a = Camera.main.WorldToViewportPoint(this.transform.position);
