@@ -21,7 +21,7 @@ RenderSettings:
   m_LinearFogStart: -15
   m_LinearFogEnd: 37.1
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
-  m_AmbientEquatorColor: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
+  m_AmbientEquatorColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 1
@@ -4536,6 +4536,11 @@ Prefab:
       propertyPath: reticleGrowthSpeed
       value: 1.75
       objectReference: {fileID: 0}
+    - target: {fileID: 20411513385923776, guid: ddfbbe2419a59814cb2d094e67188fef,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddfbbe2419a59814cb2d094e67188fef, type: 2}
   m_IsPrefabAsset: 0
@@ -5539,7 +5544,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -7695,6 +7700,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4933687548464432, guid: d05d2902eb28cb74a8781d0f5cf02104,
     type: 2}
   m_PrefabInternal: {fileID: 328279701}
+--- !u!1 &334504439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 334504440}
+  - component: {fileID: 334504441}
+  m_Layer: 2
+  m_Name: Lantern
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &334504440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 334504439}
+  m_LocalRotation: {x: -0.049634177, y: 0, z: 0, w: 0.9987675}
+  m_LocalPosition: {x: 0.19, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1752758250}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -5.69, y: 0, z: 0}
+--- !u!108 &334504441
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 334504439}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 0
+  m_Color: {r: 1, g: 0.9677149, b: 0.8726415, a: 1}
+  m_Intensity: 4.5
+  m_Range: 13
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 2800000, guid: baeca37d7f3aefb4cad1c09daed17339, type: 3}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &335486797
 Prefab:
   m_ObjectHideFlags: 0
@@ -8364,7 +8435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &355760261
 Transform:
   m_ObjectHideFlags: 0
@@ -8707,7 +8778,7 @@ GameObject:
   - component: {fileID: 369158556}
   - component: {fileID: 369158555}
   - component: {fileID: 369158554}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9228,7 +9299,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -11108,7 +11179,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -18427,7 +18498,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &670974031
 Transform:
   m_ObjectHideFlags: 0
@@ -19439,7 +19510,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -19843,7 +19914,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -19879,7 +19950,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1103595367939714, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_Name
-      value: Sounds
+      value: PointWalk (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1103595367939714, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_IsActive
@@ -21976,7 +22047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &847066608
 Transform:
   m_ObjectHideFlags: 0
@@ -24625,7 +24696,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -27010,7 +27081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1125016411
 Transform:
   m_ObjectHideFlags: 0
@@ -29691,7 +29762,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1245213079
 Transform:
   m_ObjectHideFlags: 0
@@ -30680,7 +30751,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -31057,7 +31128,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -33836,7 +33907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1454169710
 Transform:
   m_ObjectHideFlags: 0
@@ -33972,7 +34043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1461982228
 Light:
   m_ObjectHideFlags: 0
@@ -37577,7 +37648,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -38299,7 +38370,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
@@ -39276,6 +39347,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4587019353293592, guid: 5433dd7b6ccc82c4dacc2799db3664b9,
     type: 2}
   m_PrefabInternal: {fileID: 1745194182}
+--- !u!4 &1752758250 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4833557078590212, guid: ddfbbe2419a59814cb2d094e67188fef,
+    type: 2}
+  m_PrefabInternal: {fileID: 218733508}
 --- !u!1001 &1758858116
 Prefab:
   m_ObjectHideFlags: 0
@@ -41096,30 +41172,13 @@ GameObject:
   - component: {fileID: 1834860021}
   - component: {fileID: 1834860020}
   - component: {fileID: 1834860019}
-  - component: {fileID: 1834860018}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1834860018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1834860017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &1834860019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44057,7 +44116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1948708769
 Transform:
   m_ObjectHideFlags: 0
@@ -44324,7 +44383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1956911003
 Transform:
   m_ObjectHideFlags: 0
@@ -47484,7 +47543,7 @@ Prefab:
     - target: {fileID: 114361171190663070, guid: ea43460ef3522a7489b45554ba86d300,
         type: 2}
       propertyPath: objectsVisible.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4262149773472550, guid: ea43460ef3522a7489b45554ba86d300, type: 2}
       propertyPath: m_LocalPosition.x
