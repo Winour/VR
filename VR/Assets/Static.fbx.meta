@@ -1704,6 +1704,7 @@ ModelImporter:
     4300006: Horror_Egg__14_
     4300008: Cylinder
     4300010: VR_Static_Scene
+    4300012: Static
   externalObjects: {}
   materials:
     importMaterials: 1
