@@ -8,6 +8,10 @@ public class OnPositionTrigger : MonoBehaviour {
     [SerializeField]
     private GameObject[] objectToActivate;
 
+
+    public BreathingIntensity bi;
+    public float intensity;
+
     private void Start()
     {
         flag = true;
@@ -21,6 +25,7 @@ public class OnPositionTrigger : MonoBehaviour {
             {
                 o.SetActive(true);
             }
+            bi.SetIntensity(intensity);
         }
     }
 }
