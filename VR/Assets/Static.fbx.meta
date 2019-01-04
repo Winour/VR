@@ -1705,6 +1705,7 @@ ModelImporter:
     4300008: Cylinder
     4300010: VR_Static_Scene
     4300012: Static
+    4300014: Mapa
   externalObjects: {}
   materials:
     importMaterials: 1
